@@ -37,3 +37,7 @@ Git is a program used to time travel inside of text files. Think of it like a re
 ## Uninstall
 
 If you want to remove 11ty, just delete the *node_modules* folder. To uninstall Node.js, the steps will be different for each operating system. In Windows, you can uninstall Node.js from the "Add or Remove Programs" menu.
+
+## Issues
+
+If you encounter an error message that I didn't mention here, I'm sorry! Please let me know so I can fix it! You can email me, or if you're reading this on Github you can click the "issues" tab near the top of the page and file a report.
