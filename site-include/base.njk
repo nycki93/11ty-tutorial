@@ -1,0 +1,32 @@
+---
+# This is a nunjucks template. You can use it to make multiple pages
+# that look the same. This template is used by post.md to generate its head,
+# body, and page title.
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+</head>
+<body>
+    {# 
+        We use the 'title' data from post.md twice. Once in the header, and
+        again here, right on the page!
+    #}
+    <h1>This post is called "{{ title }}"</h1>
+
+    {# 
+        This is where the post content goes. We tell nunjucks that the content
+        is 'safe' because otherwise it will remove all our nice html and css.
+    #}
+    {{ content | safe }}
+
+    {# 
+        At the bottom of the post, we'll put a link back home. You could put
+        other navigation stuff here if you want!
+    #}
+    <a href="/">home</a>
+</body>
+</html>

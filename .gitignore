@@ -1,0 +1,4 @@
+# This tells git which files are safe to delete. If you don't use git,
+# then you don't need to worry about this.
+node_modules
+site-output
