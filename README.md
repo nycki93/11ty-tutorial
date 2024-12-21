@@ -32,7 +32,7 @@ This guide is for people who have already written some HTML and want to try out 
 
 **.gitignore**: This file is used to tell git which files are safe to delete. It's safe to delete node_modules because we can re-create it by running `npm install`, and it's safe to delete site-output because we can re-create it by running `npm run build`. 
 
-Git is a program used to time travel inside of text files. Think of it like a really long undo history, that can also have branching timelines inside of it. Github is a website where you can upload git files to share them, just like Pornhub is a website where you can upload porn.
+Git is a program used to time travel inside of text files. Think of it like a really long undo history, that can also have branching timelines inside of it. Github is a website where you can upload git files to share them, just like Pornhub is a website where you can upload porn. You can learn more at <https://git-scm.com/doc>.
 
 ## Uninstall
 
